@@ -14,6 +14,6 @@ def lex_sorter(file_name):
 	sorted_words = sorted(word_count, key = word_count.get, reverse = True)[:5]
 
 	for i in sorted_words:
-		print(i+":"+str(word_count[i]))
+		print(i+":", word_count[i])
 
 lex_sorter("document.txt")
